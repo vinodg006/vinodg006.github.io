@@ -1,0 +1,24 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+.header1{
+	height: 70px;
+	padding-left: 200px;
+}	
+
+body {
+
+	background-size:  ;
+	overflow-x: hidden;
+}
+
+b{
+    text-shadow: 0 0 1em  #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #09c;
+}

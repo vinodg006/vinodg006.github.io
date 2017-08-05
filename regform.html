@@ -1,0 +1,154 @@
+<html>
+<head>
+<link href="reg.css" rel="stylesheet" type="text/css">
+<title>Registration</title>
+ <style type="text/css">
+ 	.colhover:hover
+			{
+			background-color:#272727;
+			font-size:150%;
+			cursor:pointer;
+			border-radius: 15px;
+			}
+	.colhover{
+				transition: all 0.5s;
+			}
+ 
+.btn{
+		width: 200px;
+		padding: 12px;
+		color:White;
+		font-size:20;
+		background-color: #2A84D8;
+		font-family: "Arial Narrow";
+		border:0;
+		border-radius: 5px;
+	}
+.CinputsName{
+		width: 130px;
+		padding: 4px;
+		font-size:20px;
+		font-family: "Arial Narrow";
+		border:1px solid grey;
+		border-radius: 5px;
+		}
+.Cinputs{
+		width: 300px;
+		padding: 5px;
+		font-size:20px;
+		font-family: "Arial Narrow";
+		border:1px solid grey;
+		border-radius: 5px;
+		}
+button{
+		display: inline-block;
+		border-radius: 10px;
+		background-color: #000000;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 24px;
+		padding: 10px;
+		width: 100%;
+		transition: all 0.45s;
+		cursor: pointer;
+		margin: 5px;
+		}
+button:hover{
+			width: 185%;
+			background-color:#239B56;	
+			}
+body{
+		background-image:url("regb.jpeg");
+		bgcolor:red;
+		background-repeat: repeat-y;
+	}
+#text1 {
+				position:relative;
+				z-index:5;
+				left:-330px;
+				top:-18px;
+				width:28%;
+				height:110%;
+				float:left;
+				border-radius:10px;
+				opacity: 0.3;
+				background: #000;
+				filter: alpha(opacity=60);
+				}
+#text2 {
+				position:relative;
+				z-index:6;
+				top:-20px;
+				margin: auto;
+				width:auto;
+				height:105%;
+				float:left;
+				color:#fff;
+			}
+			hr{width:95%;}
+
+ </style>
+ </head>
+ <body> 
+	<div class="header1">
+		<div style="float: left; width: 800px;">
+			<img src="logo1.jpg" usemap="logo">
+			<map name="logo">
+ 				<area shape="rect" coords="0,0,200,70" href="wt.html">	
+ 				</map>
+		</div>
+		<div style="float: left; margin-top: 30px;">
+		<font color="rgb(226,226,226)" size="4"><b>Already Registered?</b></font> 
+		<a href="Signinj.html">Login </a> here
+		</div>
+	</div><br><br>
+		<div id="text2"><table border="0"  cellpadding="0" cellspacing="0" width="55%" style="float: left; margin-top: 10px;margin-left: 500px;)">
+ <tr>
+  <td style="border-radius:10px;padding:15px;">
+  <form id="registration" name="registration" method="post" >
+  <font size=4 face="Calibri"><b>Name</b><br></font> 
+  <input type="text" name="name1" placeholder="First"  class="CinputsName">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text" name="name2" placeholder="Last" class="CinputsName" ><br><br>
+  <font size=4 face="Calibri"><b>Choose your username</b><br></font>
+  <input class="Cinputs" type="text" name="uname" placeholder="                                   	@service.com" class="Cinputs"><br><br>          		       
+  <font size=4 face="Calibri"><b>Create a password</b><br></font>
+  <input class="Cinputs"type="password" name="password" class="Cinputs"><br><br>
+  <font size=4 face="Calibri"><b>Confirm your password</b><br></font>
+  <input type="password" name="confirmpassword" class="Cinputs"><br><br>
+  <font size=4 face="Calibri"><b>Birthday</b><br></font>
+  <input type="date" name="dob" class="Cinputs"><br><br>
+  <font size=4 face="Calibri"><b>Gender</b><br></font>
+  <input type="radio" name="gender" value="male" checked > Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other<br><br>
+  <font size=4 face="Calibri"><b>Mobile No.</b><br></font>
+  <select class="Cinputs" style="width:60px">
+	<option value="Other"><b>+91</b><option>
+  </select>
+  <input type="text" name="mobno" class="Cinputs" style="width:220px"><br><br>   
+  <font size=4 face="Calibri"><b>Your Current email address</b><br></font>
+  <input id="email" type="text" name="email" class="Cinputs"><br><br> 
+  
+  <font size=4 face="Calibri"><b>Location</b><br></font>
+  <select class="Cinputs">
+    <option value="Mumbai">Mumbai</option>
+	<option value="Delhi">Delhi</option>
+	<option value="Surat">Surat</option>
+  </select><br><br>
+  <input type="checkbox" name="agreement"><font size=4 face="Calibri">I accept the agreement</font><br><br>
+ <div style="float: left;margin-left: 10px;"><button type="button" >Submit</button></div>
+
+  </form></td>
+  
+ </tr>
+ </table>
+ </div>
+  <div id="text1"></div>
+
+
+
+
+
+ </body>
+ </html>

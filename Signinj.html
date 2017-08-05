@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Sign In</title>
+ <link rel="stylesheet" type="text/css" href="">
+ <style>
+ 	.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  width: 75%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 50px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.input1{
+			width: 350px;
+			padding: 10px;
+			font-size:20;
+			font-family: "Arial Narrow";
+			border:1px solid #ccc;
+			border-radius: 5px;
+			box-sizing: border-box;
+			margin: 8px 0;
+			}
+body{
+background-image: url("regb.jpeg");
+}
+
+
+ </style>
+ </head>
+ <body bgcolor="black">
+ 	<pre style="text-align: right;font-size: 40px;font-family:Chiller;"><a href="regform.html" style="text-decoration:none;color:#FFFFFF">X</a>  </pre>
+ 	<br>
+ 	<table border=0 align="center" cellpadding="12" cellspacing="1">
+<tr>
+	<td align="center"><font size="6" color="White" face="Tw Cen MT"> Job Seeker Login</font><br><br></td>
+	
+</tr>	
+<tr>
+	<td style="background-color: White;border-radius: 5px;" align="center">
+		<form>
+			<br><br><input type="text" name="uname"  class="input1" placeholder="Username"><br>
+			<input "type="password" name="pass" class="input1" placeholder="Password"><br><br>
+			<center><button type="button" class=button style="vertical-align:middle;cursor:pointer;"><span>Login</span></button></center><br>
+			<div style="width: 70%; height: 10px; border-bottom: 2px solid #EFEFEF; text-align: center">
+			<span style="font-size: 20px;background-color:#ffffff;padding:0 25px;color:#808080;">or</span>
+			</div><br>
+			<button type="button" style="width:150px;padding:10px;color:#ffffff;font-size:20;background-color: #D84B37;font-family: Arial Narrow;border:0;border-radius:5px;cursor:pointer;" onclick="location.href='https://accounts.google.com';">Google Login</button>&nbsp;&nbsp;
+			<button type="button" style="width:150px;padding:10px;color:#ffffff;font-size:20;background-color: #3b5998;font-family: Arial Narrow;border:0;border-radius:5px;cursor:pointer;" onclick="location.href='https://www.linkedin.com/uas/login';">Linkedin Login</button><br><br>
+			<hr style="width:100%;">
+			<pre><a href="FORM.html" style="font-family:arial;text-decoration:none;color:#2A84D8">Forgot Password ?</a>        <button type="button" style="width:200px;padding:5px;color:#807F7F;font-size:20;background-color:#EFEFEF;font-family: Arial Narrow;border:0;border-radius:5px;cursor:pointer;" onclick="location.href='regform.html';"onMouseOver="this.style.color='#2A84D8'"onMouseOut="this.style.color='#807F7F'">Create New Account</button></pre>
+		</form>
+	</td>
+</tr>
+<tr>
+	<td>
+		<br><font color="#ffffff" face="arial narrow" size=4>Is it getting hard to get served?</font>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<button type="button" style="width:100px;padding:5px;color:#2A84D8;font-size:20;background-color: #FFFFFF;font-family: Arial Narrow;border:0;border-radius:5px;cursor:pointer;" onclick="location.href='Homepage2.html';"onMouseOver="this.style.color='#F79507'"onMouseOut="this.style.color='#2A84D8'">Try us</button>
+	</td>
+</tr>
+	</table>
+
+ </body>
+ </html>
